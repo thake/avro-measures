@@ -23,7 +23,7 @@ public class MassConverter extends Conversion<Quantity<Mass>> {
     }
 
     public String getLogicalTypeName() {
-        return LengthLogicalType.LENGTH_LOGICAL_TYPE_NAME;
+        return MassLogicalType.MASS_LOGICAL_TYPE_NAME;
     }
 
     @Override public Quantity<Mass> fromLong(Long value, Schema schema, LogicalType type) {
